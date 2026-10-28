@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel Planner</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<nav>
+    <h2>Wanderly</h2>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#trip-search">My Trips</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p>EXPLORE • DISCOVER • EXPERIENCE</p>
+
+        <h1>Plan Your Journey,<br>Make It Unforgettable.</h1>
+
+        <p>
+            Create your perfect travel itinerary and
+            organize every moment of your trip.
+        </p>
+
+        <a href="#trip-search">Start Planning</a>
+
+    </div>
+
+</section>
+
+<section class="trip-search" id="trip-search">
+
+    <h2>Plan Your Trip</h2>
+
+    <div class="search-box">
+
+        <div class="input-group">
+            <label>Destination</label>
+
+            <select id="destination">
+                <option value="">Select Destination</option>
+                <option value="Manali">Manali</option>
+                <option value="Paris">Paris</option>
+                <option value="Kyoto">Kyoto</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label>Start Date</label>
+            <input type="date" id="startDate">
+        </div>
+
+        <div class="input-group">
+            <label>End Date</label>
+            <input type="date" id="endDate">
+        </div>
+
+        <button type="button" onclick="planTrip()">Plan Trip</button>
+
+    </div>
+
+</section>
+
+<section class="destinations" id="destinations">
+
+    <p class="section-tag">POPULAR PLACES</p>
+
+    <h2>Explore Destinations</h2>
+
+    <div class="destination-container">
+
+        <a href="manali.html" class="destination-card">
+            <img src="images/manali.jpg" alt="Manali">
+
+            <div class="destination-info">
+                <h3>Manali</h3>
+                <p>Himachal Pradesh, India</p>
+            </div>
+        </a>
+
+        <a href="paris.html" class="destination-card">
+            <img src="images/paris.jpg" alt="Paris">
+
+            <div class="destination-info">
+                <h3>Paris</h3>
+                <p>France</p>
+            </div>
+        </a>
+
+        <a href="kyoto.html" class="destination-card">
+            <img src="images/kyoto.jpg" alt="Kyoto">
+
+            <div class="destination-info">
+                <h3>Kyoto</h3>
+                <p>Japan</p>
+            </div>
+        </a>
+
+    </div>
+
+</section>
+
+<section class="why-us">
+
+    <p class="section-tag">TRAVEL SMART</p>
+
+    <h2>Everything You Need for Your Journey</h2>
+
+    <p class="section-description">
+        Plan your trip, discover amazing places and create unforgettable memories.
+    </p>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <div class="why-icon">✈</div>
+
+            <h3>Easy Planning</h3>
+
+            <p>
+                Organize your destinations, activities and travel days in one place.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">🌍</div>
+
+            <h3>Beautiful Destinations</h3>
+
+            <p>
+                Discover exciting places and find inspiration for your next adventure.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">♥</div>
+
+            <h3>Memorable Experiences</h3>
+
+            <p>
+                Make every journey special with carefully planned travel experiences.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="inspiration">
+
+    <div class="inspiration-image">
+
+        <img src="images/manali-view.jpg" alt="Beautiful mountain view">
+
+    </div>
+
+    <div class="inspiration-content">
+
+        <p class="section-tag">TRAVEL INSPIRATION</p>
+
+        <h2>Don't Just Visit Places.<br>Experience Them.</h2>
+
+        <p>
+            From peaceful mountain escapes to exciting city adventures,
+            every destination has a story waiting to be discovered.
+        </p>
+
+        <a href="manali.html">Explore My Trip</a>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <p class="section-tag">ABOUT WANDERLY</p>
+
+    <h2>Plan Better. Travel Better.</h2>
+
+    <p>
+        Wanderly is an interactive travel itinerary planner designed
+        to make trip planning simple and enjoyable.
+    </p>
+
+    <p>
+        Choose a destination, select your travel dates and get a
+        day-by-day itinerary for your journey.
+    </p>
+
+</section>
+
+</header>
+
+<footer id="footer">
+
+    <h2>Wanderly</h2>
+
+    <p>Plan your journey. Create unforgettable memories.</p>
+
+    <p>© 2026 Wanderly. All rights reserved.</p>
+
+</footer>
+
+<script src="script.js?v=3"></script>
+
+</body>
+
+</html>
